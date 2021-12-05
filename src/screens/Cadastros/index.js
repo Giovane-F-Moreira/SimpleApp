@@ -72,8 +72,6 @@ export default class Cadastros extends React.Component {
           style={{width: 200}}
           date={this.state.date}
           format="DD-MM-YYYY"
-          minDate="10-07-2019"
-          maxDate="31-08-2019"
           onDateChange={this.selectDate}
         />
         <Text>Horário</Text>
